@@ -17,8 +17,8 @@ for /d %%D in (*) do (
 	
 	REM create output sub directories
 	if not exist output_las mkdir "output_las"
-    if not exist output_canopy_surface mkdir "output_canopy_surface"
-    if not exist output_canopy_height mkdir "output_canopy_height"
+    	if not exist output_canopy_surface mkdir "output_canopy_surface"
+    	if not exist output_canopy_height mkdir "output_canopy_height"
 	echo "output_las" created in %%D.
 	echo "output_canopy_surface" created in %%D.
 	echo "output_canopy_height" created in %%D.
