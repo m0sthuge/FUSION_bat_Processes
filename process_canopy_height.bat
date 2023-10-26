@@ -1,0 +1,1 @@
+CanopyModel /ground:*.dtm output_canopy_height\%1_canopy_surface.DTM 1 m m 1 15 2 2 output_las\%1.las

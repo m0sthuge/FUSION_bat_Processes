@@ -1,0 +1,1 @@
+LDA2LAS %1.laz output_las\%1.las
