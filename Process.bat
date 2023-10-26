@@ -8,8 +8,8 @@ set "ProcessCanopySurfaceScript=%ParentDirectory%\process_canopy_surface.bat"
 REM Iterate over folders in the current directory
 for /d %%D in (*) do (
 	REM open folder %%D
-    echo Processing folder: %%D
-    pushd "%%D"
+    	echo Processing folder: %%D
+    	pushd "%%D"
 	
 	REM create filelist.txt with .laz files to process
 	DIR /b *.laz > filelist.txt
